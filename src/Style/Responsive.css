@@ -1,0 +1,1235 @@
+@import './Style.css';
+
+@media screen and (max-width: 2100px) {
+
+    /* Article 2 MMA Career */
+    .main-content {
+        height: auto;
+    }
+
+    /* Article 4 2014 */
+    .main-content:nth-child(4) {
+        overflow: auto;
+        height: 280px;
+    }
+
+    /* Article 5 2015 */
+    .alt-content {
+        margin: 1% 0px;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+
+    /* Article 5 2016 */
+    .alt-content:nth-child(10) {
+        margin-top: 1%;
+    }
+}
+
+
+@media screen and (max-width: 1900px) {
+
+    /* Nav And Jumbotron */
+    nav {
+        margin-top: -3.2%;
+    }
+
+    .clock .day {
+        font-size: 170px;
+    }
+
+    .clock p {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+
+    /* Nav And Jumbotron */
+    nav {
+        margin-top: -3.4%;
+    }
+
+    nav ul {
+        font-size: 30px;
+    }
+
+    .clock .time,
+    .clock .date {
+        font-size: 33px;
+    }
+
+    .clock .day {
+        font-size: 160px;
+    }
+
+    .clock p {
+        font-size: 25px;
+    }
+
+
+    /* Article 1 */
+    .article-img {
+        width: 180%;
+    }
+
+    .article-img img {
+        width: 98%;
+    }
+
+    .article-text {
+        width: auto;
+    }
+
+    .article-text h1 {
+        font-size: 50px;
+    }
+
+    .article-text p {
+        font-size: 26px;
+    }
+
+    /* Article 2 MMA Career */
+    .main-content p {
+        font-size: 26px;
+    }
+
+    /* Footer */
+    .contact-list h5,
+    .social-media h5 {
+        font-size: 30px;
+    }
+
+    .contact-list-list p,
+    .social-media p {
+        font-size: 25px;
+    }
+
+    .contact-list-list p span {
+        font-size: 1.2em;
+    }
+
+    .image-media {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+
+    /* Nav And Jumbotron */
+    nav {
+        margin-top: -3.5%;
+    }
+
+    nav ul {
+        font-size: 28px;
+    }
+
+    .clock .time,
+    .clock .date {
+        font-size: 30px;
+    }
+
+    .clock .day {
+        font-size: 150px;
+    }
+
+    .clock p {
+        font-size: 23px;
+    }
+
+    /* Article 1 */
+    .article-img {
+        width: 170%;
+    }
+
+    .article-img img {
+        width: 96%;
+    }
+
+    /* Article 2 MMA Career */
+    .article-title h1 {
+        font-size: 40px;
+        border-bottom: solid 4px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+
+    /* Nav And Jumbotron */
+    nav {
+        margin-top: -3.3%;
+    }
+
+    nav ul {
+        font-size: 25px;
+    }
+
+    nav ul li {
+        padding: 10px 20px;
+    }
+
+    nav ul li:hover {
+        margin-top: -1.5%;
+    }
+
+    .clock .time,
+    .clock .date {
+        font-size: 28px;
+    }
+
+    .clock .day {
+        font-size: 120px;
+    }
+
+    .clock p {
+        font-size: 23px;
+    }
+
+    /* Article 1 */
+    .article-img {
+        width: 160%;
+    }
+
+    .article-img img {
+        width: 94%;
+    }
+
+    .article-text h1 {
+        font-size: 44px;
+    }
+
+    .article-text p {
+        font-size: 22px;
+    }
+
+    .article-text button {
+        padding: 13px 0px;
+        font-size: 23px;
+    }
+
+    /* Article 2 MMA Career */
+    .article-title h1 {
+        font-size: 35px;
+        border-bottom: solid 3px;
+    }
+
+    .main-content p {
+        font-size: 22px;
+    }
+
+    /* Article 3 2013 */
+    .content h3 {
+        font-size: 25px;
+    }
+
+    /* Article 5 2016 */
+    .alt-content:nth-child(10) {
+        width: auto;
+        overflow: auto;
+    }
+
+    .alt-content:nth-child(10) img:nth-child(1),
+    .alt-content:nth-child(10) img:nth-child(2) {
+        display: inline-block;
+    }
+
+    /* footer */
+    .contact-list h5,
+    .social-media h5 {
+        font-size: 27px;
+    }
+
+    .contact-list-list p,
+    .social-media p {
+        font-size: 23px;
+    }
+
+    .contact-list-list p span {
+        font-size: 1.1em;
+    }
+
+    .image-media {
+        width: 65px;
+        border: rgba(231, 99, 0, 255) 4px solid;
+        padding: 15px;
+    }
+
+}
+
+/* Layar Laptop 14inch */
+@media screen and (max-width: 1400px) {
+
+    /* Nav And Jumbotron */
+    nav {
+        margin-top: -3.1%;
+    }
+
+    nav ul {
+        font-size: 19px;
+    }
+
+    nav ul li:hover {
+        margin-top: -1.1%;
+    }
+
+    .clock .time,
+    .clock .date {
+        font-size: 22px;
+    }
+
+    .clock .day {
+        font-size: 100px;
+    }
+
+    .clock p {
+        font-size: 19px;
+    }
+
+    /* Article 1 */
+
+    .article-img img {
+        width: 90%;
+    }
+
+    .article-text h1 {
+        font-size: 38px;
+    }
+
+    .article-text p {
+        font-size: 19px;
+    }
+
+    .article-text button {
+        padding: 11px 0px;
+        font-size: 20px;
+    }
+
+    /* Article 2 MMA Career */
+    .article-title h1 {
+        font-size: 32px;
+    }
+
+    .main-content p {
+        font-size: 19px;
+    }
+
+    .main-content img {
+        width: 280px;
+        height: 180px;
+    }
+
+    /* Article 3 2013 */
+    .content h3 {
+        font-size: 23px;
+    }
+
+    /* footer */
+    .made {
+        font-size: 15px;
+    }
+
+    .contact-list h5,
+    .social-media h5 {
+        font-size: 24px;
+    }
+
+    .contact-list-list p,
+    .social-media p {
+        font-size: 19px;
+    }
+
+    .contact-list-list p span {
+        font-size: 1em;
+    }
+
+    .image-media {
+        width: 55px;
+        border: rgba(231, 99, 0, 255) 3px solid;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* Bagian Nav And Jumbotron */
+    nav {
+        margin-top: -3.5%;
+    }
+
+    nav ul li {
+        padding: 9px 20px;
+    }
+
+    /* Article 1 */
+    .article-img {
+        width: 160%;
+    }
+
+    .article-img img {
+        width: 90%;
+    }
+
+    .article-text h1 {
+        font-size: 36px;
+    }
+
+    .article-text p {
+        font-size: 17px;
+    }
+
+    .article-text button {
+        padding: 9px 0px;
+        font-size: 15px;
+    }
+
+    /* Article 2 MMA Career */
+    .article-title h1 {
+        font-size: 29px;
+    }
+
+    .main-content p {
+        font-size: 17px;
+    }
+
+    .main-content img {
+        width: 260px;
+        height: 160px;
+    }
+
+    /* Article 3 2013 */
+    .content h3 {
+        font-size: 20px;
+    }
+
+    /* Article 4 2015*/
+    .alt-content img {
+        width: 20%;
+    }
+
+    /* Article 5 2016 */
+    .alt-content:nth-child(10) img {
+        width: 18%;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+    /* Bagian Nav And Jumbotron */
+    nav ul {
+        font-size: 17px;
+    }
+
+    nav ul li {
+        padding: 8px 20px;
+    }
+
+    /* Article 1 */
+    .article-text p {
+        font-size: 15px;
+    }
+
+    /* footer */
+    .contact-list h5,
+    .social-media h5 {
+        font-size: 22px;
+    }
+
+    .contact-list-list p,
+    .social-media p {
+        font-size: 17px;
+    }
+
+    .image-media {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    /* Bagian Nav And Jumbotron */
+    nav ul li {
+        padding: 6px 20px;
+    }
+
+    /* Article 1 */
+    .article-text h1 {
+        font-size: 30px;
+    }
+
+    .article-text p {
+        font-size: 13px;
+    }
+
+    .article-text button {
+        padding: 5px 0px;
+        font-size: 13px;
+    }
+
+    /* Article 2 MMA Career */
+    .article-title h1 {
+        font-size: 26px;
+    }
+
+    .main-content p {
+        font-size: 13px;
+    }
+
+    .main-content img {
+        width: 220px;
+        height: 140px;
+    }
+
+    /* Article 3 2013 */
+    .content h3 {
+        font-size: 17px;
+    }
+
+    /* Article 4 2015*/
+    .alt-content {
+        justify-content: center;
+    }
+
+    .alt-content img {
+        width: 23%;
+    }
+
+    /* Article 5 2016 */
+    .alt-content:nth-child(10) img {
+        width: 22%;
+    }
+
+    .alt-content:nth-child(10) img:nth-child(1),
+    .alt-content:nth-child(10) img:nth-child(2) {
+        display: none;
+    }
+
+    /* footer */
+    .made {
+        font-size: 13px;
+    }
+
+    .contact-list h5,
+    .social-media h5 {
+        font-size: 19px;
+    }
+
+    .contact-list-list p,
+    .social-media p {
+        font-size: 15px;
+    }
+
+    .image-media {
+        width: 45px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    /* Bagian Nav And Jumbotron */
+    nav {
+        margin-top: -4%;
+    }
+
+    .clock .time,
+    .clock .date {
+        font-size: 20px;
+    }
+
+    .clock .day {
+        font-size: 95px;
+    }
+
+    .clock p {
+        font-size: 16px;
+    }
+
+    /* Article 1 */
+    .article-img img {
+        width: 95%;
+    }
+
+    .article-text h1 {
+        font-size: 28px;
+    }
+
+    .article-text p {
+        font-size: 12px;
+    }
+
+    /* Article 2 MMA Career */
+    .article-title h1 {
+        font-size: 23px;
+    }
+
+    .main-content p {
+        font-size: 12px;
+    }
+
+    .main-content img {
+        width: 190px;
+        height: 130px;
+    }
+
+    /* Article 3 2013 */
+    .main-content:nth-child(4) {
+        overflow: auto;
+        height: 150px;
+    }
+
+    .content h3 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    /* Bagian Nav And Jumbtron */
+    nav ul {
+        font-size: 16px;
+    }
+
+    .clock .time,
+    .clock .date {
+        font-size: 18px;
+    }
+
+    .clock .day {
+        font-size: 90px;
+    }
+
+    .clock p {
+        font-size: 14px;
+    }
+
+    /* Article */
+    .article-text h1 {
+        font-size: 25px;
+    }
+
+    .article-text p {
+        font-size: 11px;
+    }
+
+    /* Article 2 MMA Career */
+    .article-title h1 {
+        font-size: 20px;
+    }
+
+    .main-content p {
+        font-size: 11px;
+    }
+
+    .main-content img {
+        width: 170px;
+        height: 110px;
+    }
+
+    /* footer */
+    .made {
+        font-size: 11px;
+    }
+
+    .contact-list h5,
+    .social-media h5 {
+        font-size: 17px;
+    }
+
+    .contact-list-list p,
+    .social-media p {
+        font-size: 13px;
+    }
+
+    .image-media {
+        width: 40px;
+        border: rgba(231, 99, 0, 255) 2px solid;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    /* Bagian Nav And Jumbotron */
+    nav ul {
+        font-size: 14px;
+    }
+
+    .clock .time,
+    .clock .date {
+        font-size: 16px;
+    }
+
+    .clock .day {
+        font-size: 85px;
+    }
+
+    .clock p {
+        font-size: 12px;
+    }
+
+    /* Article 1 */
+    .article-text h1 {
+        font-size: 22px;
+    }
+
+    .article-text p {
+        font-size: 10.5px;
+    }
+
+    .article-text button {
+        padding: 3px 0px;
+        font-size: 10px;
+    }
+
+    /* Article 2 MMA Career */
+    .article-title h1 {
+        font-size: 18px;
+    }
+
+    .main-content p {
+        font-size: 10.5px;
+    }
+
+    /* Article 3 2013 */
+    .content h3 {
+        font-size: 11px;
+    }
+
+    /* footer */
+    .made {
+        font-size: 9px;
+    }
+
+    .contact-list h5,
+    .social-media h5 {
+        font-size: 13px;
+    }
+
+    .contact-list-list p,
+    .social-media p {
+        font-size: 10px;
+    }
+
+    .image-media {
+        width: 35px;
+        border: rgba(231, 99, 0, 255) 2px solid;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    /* Bagian Nav And Jumbotron */
+    nav {
+        margin-top: -4.3%;
+    }
+
+    nav ul {
+        font-size: 12px;
+    }
+
+    .clock .time,
+    .clock .date {
+        font-size: 14px;
+    }
+
+    .clock .day {
+        font-size: 75px;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+
+    /* Bagian Nav And Jumbotron */
+    nav {
+        margin-top: -4.0%;
+    }
+
+    nav ul {
+        font-size: 10px;
+    }
+
+    .clock .time,
+    .clock .date {
+        font-size: 12px;
+    }
+
+    .clock .day {
+        font-size: 70px;
+    }
+
+    .clock p {
+        font-size: 10px;
+    }
+
+    /* Article */
+    .article-text h1 {
+        font-size: 19px;
+    }
+
+    .article-text p {
+        font-size: 9.5px;
+    }
+
+    /* Article 2 MMA Career */
+    .article-title h1 {
+        font-size: 15px;
+    }
+
+    .main-content p {
+        font-size: 9.5px;
+    }
+
+    .main-content img {
+        width: 150px;
+        height: 100px;
+    }
+
+    /* Article 3 2013 */
+    .main-content:nth-child(4) {
+        height: 100px;
+    }
+}
+
+/* Next */
+/* Untuk Layar Hp */
+@media screen and (max-width: 576px) {
+
+    /* Bagian Nav And Jumbotron */
+    header {
+        flex-direction: column-reverse;
+
+    }
+
+    nav {
+        margin: 0% 0px 0px 0px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+    }
+
+    .clock .time,
+    .clock .date {
+        font-size: 18px;
+    }
+
+    .clock .day {
+        font-size: 85px;
+    }
+
+    .clock p {
+        font-size: 15px;
+    }
+
+    .burger {
+        display: inline-block;
+        z-index: 2;
+        position: absolute;
+    }
+
+    .burger .line {
+        width: 23px;
+        height: 2px;
+    }
+
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        left: 0;
+        height: 100vh;
+        top: -6vh;
+        background-color: rgb(0, 0, 0);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        transform: translateY(-120%);
+        transition: 0.5s ease-in;
+        font-size: 14px;
+        animation: slide 25s infinite;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .nav-links::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        z-index: -1;
+    }
+
+    @keyframes slide {
+        0% {
+            background-image: url(../Photo/Mcgegor.jpg);
+        }
+
+        20% {
+            background-image: url(../Photo/Mcgegor.jpg);
+        }
+
+        40% {
+            background-image: url(https://i1.wp.com/mysticmac.online/wp-content/uploads/2019/11/mcgregor.jpg?fit=1000%2C600&ssl=1);
+        }
+
+        60% {
+            background-image: url(../Photo/Mcgegor6.jpg);
+        }
+
+        80% {
+            background-image: url(https://socialnewsdaily.com/wp-content/uploads/2016/12/conor.jpg);
+        }
+
+        100% {
+            background-image: url(https://www.gqmiddleeast.com/public/images/2019/09/17/Conor_McGregor__UFC_GQME.jpg);
+        }
+    }
+
+
+    .nav-links li {
+        opacity: 0;
+        margin: 0% 0px 20px 0px;
+    }
+
+    .nav-links li:nth-child(1) {
+        margin-top: 10%;
+    }
+
+    .nav-active {
+        transform: translateY(0%);
+    }
+
+    @keyframes navLinkFade {
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+
+    /* Article 1 */
+    article {
+        margin: 3% 4% 3% 4%;
+    }
+
+    article:nth-child(1) {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .article-img {
+        width: auto;
+    }
+
+    .article-img img {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .article-text {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .article-text h1 {
+        font-size: 25px;
+    }
+
+    .article-text p {
+        font-size: 16px;
+        margin: 0px 0px 2% 0px;
+    }
+
+    .article-text button {
+        padding: 14px 0px;
+        font-size: 15px;
+    }
+
+    /* Article 2  MMA Career*/
+    .article-title h1 {
+        font-size: 20px;
+        border-bottom: solid 3px;
+        width: 95%;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    .main-content p {
+        font-size: 16px;
+    }
+
+    .main-content img {
+        display: block;
+        width: auto;
+        height: auto;
+        background-color:pink;
+        margin: 10px 0px;
+    }
+
+    /* Article 3 2013 */
+    .content h3 {
+        font-size: 18px;
+    }
+
+    .ufc-career {
+        overflow: scroll;
+        height: 270px;
+    }
+
+    /* Article 4 2014 */
+    .main-content:nth-child(4) {
+        overflow: scroll;
+        height: 270px;
+    }
+
+    /* Article 5 2015*/
+    .none {
+        display: block;
+    }
+
+    .none img {
+        width: 98%;
+    }
+
+    .alt-content {
+        display: none;
+    }
+
+    /* Article 7 (double champ) */
+    .main-content:nth-child(12) {
+        overflow: scroll;
+        height: 270px;
+    }
+
+    .main-content:nth-child(12) img {
+        width: auto;
+        height: auto;
+    }
+
+    /* Footer */
+    .made p {
+        margin: 30px 0px;
+    }
+
+    .contact {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-list h5,
+    .social-media h5 {
+        font-size: 18px;
+    }
+
+    .contact-list-list p,
+    .social-media p {
+        font-size: 13px;
+    }
+
+    .image-media {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    /* Bagian Nav And Jumbotron */
+    .burger .line {
+        width: 20px;
+        height: 2px;
+    }
+
+    .clock {
+        flex-wrap: wrap;
+    }
+
+    .clock .time,
+    .clock .date {
+        font-size: 16px;
+    }
+
+    .clock .day {
+        font-size: 80px;
+    }
+
+    .clock p {
+        font-size: 13px;
+    }
+
+    /* Article 1 */
+    .article-text h1 {
+        font-size: 23px;
+    }
+
+    .article-text p {
+        font-size: 14px;
+    }
+
+    .article-text button {
+        padding: 10px 0px;
+        font-size: 15px;
+    }
+
+    /* Footer */
+    .image-media {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    /* Bagian Nav And Jumbotron */
+    .clock .time,
+    .clock .date {
+        font-size: 13px;
+    }
+
+    .clock .day {
+        font-size: 75px;
+    }
+
+
+    .clock p {
+        font-size: 11px;
+    }
+
+    .nav-links {
+        font-size: 12px;
+    }
+
+    /* Article 1 */
+    .article-text h1 {
+        font-size: 20px;
+    }
+
+    .article-text p {
+        font-size: 14px;
+    }
+
+    .article-text button {
+        padding: 8px 0px;
+        font-size: 13px;
+    }
+
+    /* Article 2  MMA Career*/
+    .article-title h1 {
+        font-size: 18px;
+    }
+
+    .main-content p {
+        font-size: 14px;
+    }
+
+    /* Article 3 2013 */
+    .content h3 {
+        font-size: 16px;
+    }
+
+    /* Footer */
+    .contact-list h5,
+    .social-media h5 {
+        font-size: 15px;
+    }
+
+    .contact-list-list p,
+    .social-media p {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    /* Bagian Nav And Jumbotron */
+    .clock .day {
+        font-size: 65px;
+    }
+
+    .clock p {
+        font-size: 10px;
+    }
+
+    /* Article 1 */
+    .article-text p {
+        font-size: 12px;
+    }
+
+    .article-text button {
+        padding: 6px 0px;
+        font-size: 11px;
+        margin-top: 5px;
+    }
+
+    /* Article 2  MMA Career*/
+    .main-content p {
+        font-size: 12px;
+    }
+
+    /* Footer */
+    .image-media {
+        width: 35px;
+    }
+}
+
+
+@media screen and (max-width: 310px) {
+
+    /* Bagian Nav And Jumbotron */
+    .nav-links {
+        font-size: 10px;
+        margin: 0px 0px 0px 0px;
+        justify-content: center;
+    }
+
+    .nav-links li {
+        margin-bottom: 40px;
+    }
+
+    .nav-links li:nth-child(1) {
+        margin-top: 25%;
+    }
+
+    .burger .line {
+        width: 20px;
+        height: 2px;
+    }
+
+    .clock .time,
+    .clock .date {
+        font-size: 12px;
+    }
+
+    .clock .day {
+        font-size: 55px;
+    }
+
+    .clock p {
+        font-size: 8px;
+    }
+
+    /* Article 1 */
+    .article-text p {
+        font-size: 11px;
+    }
+
+    /* Article 2  MMA Career*/
+    .main-content p {
+        font-size: 11px;
+    }
+
+    /* Footer */
+    .contact-list-list p,
+    .social-media p {
+        font-size: 10px;
+    }
+}

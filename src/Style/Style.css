@@ -1,0 +1,382 @@
+/* Styling mulai dari 2100px, cari masing2 ukuran layar di responsive.css */
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+html, body, ul, ol, li, h1, h2, h3,h4, h5, h6, p, form,input,div {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.jumbotron {
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    animation: slide 30s infinite;
+}
+
+@keyframes slide {
+    0% {
+        background-image: url(../Photo/Mcgegor.jpg);
+    }
+    20% {
+        background-image: url(../Photo/Mcgegor.jpg);
+    }
+    40% {
+        background-image: url(https://i1.wp.com/mysticmac.online/wp-content/uploads/2019/11/mcgregor.jpg?fit=1000%2C600&ssl=1);
+    }
+    60% {
+        background-image: url(../Photo/Mcgegor6.jpg);
+    }
+    80% {
+        background-image: url(https://socialnewsdaily.com/wp-content/uploads/2016/12/conor.jpg);
+    }
+    100% {
+        background-image: url(https://www.gqmiddleeast.com/public/images/2019/09/17/Conor_McGregor__UFC_GQME.jpg);
+    }
+}
+
+.jumbotron::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: -1;
+}
+
+.clock {
+    color: white;
+    padding: 12% 0px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.clock .time {
+    font-size: 35px;
+    margin: 0 auto;
+}
+.clock .day {
+    font-size: 200px;
+    margin: 0 auto;
+    color: rgba(0,115,56,255);
+    content: open-quote;
+}
+
+.clock .date {
+    font-size: 35px;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+.clock p {
+    margin: 0 auto;
+    font-size: 30px;
+    color: rgba(231,99,0,255);
+}
+
+nav {
+    z-index: 99;
+    position: sticky;
+    margin: -2.7% 0% 0px 0%;
+    
+}
+
+nav ul {
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    font-size: 33px;
+}
+
+nav ul li {
+    color: white;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+nav ul li:hover {
+    background-color: rgb(0, 0, 0, 0.4);
+    cursor: pointer;
+    margin-top: -2%;
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    display: none;
+    right: 5%;
+    margin-top: 15px;
+}
+
+.burger .line {
+    width: 23px;
+    height: 3px;
+    margin-bottom: 3px;
+    background-color: rgb(179, 178, 178);
+}
+
+/* Bagian Main */
+
+/* Article 1 */
+main{
+    position: relative;
+}
+
+article {
+    margin: 3% 1% 1% 1%;
+}
+
+.disable {
+    display: none;
+}
+
+article:nth-child(1) { 
+    display: flex;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 20px; */
+}
+
+.article-img img {
+    width: 95%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.article-text {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.article-text h1 {
+    font-size: 55px;
+    text-align: center;
+}
+
+.article-text p {
+    font-size: 28px;
+    margin: 0px 0px 3% 0px;
+}
+
+.article-text button {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 18px 0px;
+    font-size: 25px;
+    border: 1px solid rgb(209, 209, 209);
+    transition: 0.2s;
+}
+
+.article-text button:hover {
+    transform: translateY(-5px);
+    background-color: rgb(99, 97, 97);
+    color: rgb(209, 209, 209);
+}
+
+.article-text button:active {
+    transform: translateY(0px);
+}
+
+/* Article 2  MMA Career*/
+.article-title {
+    text-align: center;
+}
+
+.article-title h1 {
+    font-size: 45px;
+    border-image: linear-gradient(to left, rgba(231,99,0,255), rgba(0,115,56,255)) 1 0;
+    border-bottom: solid 5px;
+    padding-bottom: 10px;
+    width: 90%;
+    display: inline-block;
+}
+
+.content {
+    margin: 30px 1%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    height: auto;
+}
+
+.main-content {
+    display: flex;
+    /* height: 270px; */
+    margin: 10px;
+}
+
+.main-content p {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.main-content img {
+    width: 335px;
+    height: 230px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 3px;
+}
+
+/* Article 3 2013 */
+.content h3 {
+    margin: 10px 0px;
+    font-size: 30px;
+}
+
+.main-content:nth-child(4) {
+    overflow: auto;
+    margin-right: 5px;
+}
+
+.main-content:nth-child(4) p {
+    overflow: visible;
+}
+
+.img-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-content img {
+    margin-bottom: 10px;
+}
+
+/* Article 5 2015*/
+.main-content:nth-child(6) {
+    margin-right: -5px;
+}
+
+.none {
+    display: none;
+}
+
+.alt-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 0px;
+}
+.alt-content img, .none img {
+    width: 23%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 3px;
+}
+
+/* Article 6 2016 */
+.alt-content:nth-child(10) {
+    margin: 3% auto;
+    width: 90%;
+}
+
+.alt-content:nth-child(10) img:nth-child(1), .alt-content:nth-child(10) img:nth-child(2) {
+    display: none;
+} 
+
+/* Article 6 (double champ)*/
+.main-content:nth-child(12) img {
+    width: 28%;
+    height: 120%;
+}
+
+/* Footer */
+footer {
+    padding: 0px 0%;
+}
+
+.made {
+    font-size: 23px;
+    text-align: center;
+}
+
+.made p {
+    margin-top: 50px;
+}
+
+.made span {
+    color: rgba(0,115,56,255);
+    display: inline-block;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 0px;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+
+.contact-list h5 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.contact-list-list p {
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: rgb(131, 131, 131);
+}
+
+.contact-list-list p span {
+    color: rgba(231,99,0,255);
+    font-size: 1.3em;
+    margin-right: 5px;
+}
+
+.contact-list-list p a {
+    text-decoration: none;
+    color: rgb(131, 131, 131);
+}
+
+.social-media {
+    width: auto;
+}
+
+.social-media h5 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.social-media p {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(131, 131, 131);
+}
+
+.image-media {
+    width: 90px;
+    margin: 10px 15px 0px 0px;
+    border: rgba(231,99,0,255) 6px solid;
+    border-radius: 40px;
+    padding: 20px;
+    flex-direction: row;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.image-media:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 0.5s;
+}
