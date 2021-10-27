@@ -973,7 +973,6 @@
         display: block;
         width: auto;
         height: 250px;
-        background-color:pink;
         margin: 10px 0px;
     }
 
@@ -1084,7 +1083,6 @@
     /* Article 2 MMA Career */
     .main-content img {
         height: 220px;
-        background-color: blue;
     }
 
     /* Footer */
@@ -1093,8 +1091,8 @@
     }
 }
 
+/* Layar Hp Redmi Note 8 */
 @media screen and (max-width: 400px) {
-
     /* Bagian Nav And Jumbotron */
     .clock .time,
     .clock .date {
@@ -1139,7 +1137,6 @@
 
     .main-content img {
         height: 190px;
-        background-color: green;
     }
 
     /* Article 3 2013 */
@@ -1188,7 +1185,6 @@
 
     .main-content img {
         height: 150px;
-        background-color: yellow;
     }
 
     /* Article 7 (Double champ) */
@@ -1250,7 +1246,6 @@
 
     .main-content img {
         height: 130px;
-        background-color:deepskyblue
     }
 
     /* Article 7 (Double champ) */

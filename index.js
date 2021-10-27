@@ -97,7 +97,7 @@ const main = () => {
                 <div class="img-content none">
                     <img src=${profileEmpat.img}>
                     <img src=${profileEmpat.img2}>
-                    <img src=${profileEmpat.img4}>
+                    <img src=${profileEmpat.img3}>
                     <img src=${profileEmpat.img4}>
                 </div>
             </div>
@@ -105,7 +105,7 @@ const main = () => {
             <div class="alt-content">
                 <img src=${profileEmpat.img}>
                 <img src=${profileEmpat.img2}>
-                <img src=${profileEmpat.img4}>
+                <img src=${profileEmpat.img3}>
                 <img src=${profileEmpat.img4}>
             </div>
 
