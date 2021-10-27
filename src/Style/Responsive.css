@@ -972,7 +972,7 @@
     .main-content img {
         display: block;
         width: auto;
-        height: auto;
+        height: 250px;
         background-color:pink;
         margin: 10px 0px;
     }
@@ -1014,7 +1014,7 @@
 
     .main-content:nth-child(12) img {
         width: auto;
-        height: auto;
+        height: 200px;
     }
 
     /* Footer */
@@ -1060,7 +1060,7 @@
     }
 
     .clock .day {
-        font-size: 80px;
+        font-size: 4em;
     }
 
     .clock p {
@@ -1081,6 +1081,12 @@
         font-size: 15px;
     }
 
+    /* Article 2 MMA Career */
+    .main-content img {
+        height: 220px;
+        background-color: blue;
+    }
+
     /* Footer */
     .image-media {
         width: 40px;
@@ -1096,7 +1102,7 @@
     }
 
     .clock .day {
-        font-size: 75px;
+        font-size: 4em;
     }
 
 
@@ -1131,6 +1137,11 @@
         font-size: 14px;
     }
 
+    .main-content img {
+        height: 190px;
+        background-color: green;
+    }
+
     /* Article 3 2013 */
     .content h3 {
         font-size: 16px;
@@ -1152,7 +1163,7 @@
 
     /* Bagian Nav And Jumbotron */
     .clock .day {
-        font-size: 65px;
+        font-size: 3.5em;
     }
 
     .clock p {
@@ -1173,6 +1184,16 @@
     /* Article 2  MMA Career*/
     .main-content p {
         font-size: 12px;
+    }
+
+    .main-content img {
+        height: 150px;
+        background-color: yellow;
+    }
+
+    /* Article 7 (Double champ) */
+    .main-content:nth-child(12) img {
+        height: 150px;
     }
 
     /* Footer */
@@ -1210,7 +1231,7 @@
     }
 
     .clock .day {
-        font-size: 55px;
+        font-size: 3em;
     }
 
     .clock p {
@@ -1225,6 +1246,16 @@
     /* Article 2  MMA Career*/
     .main-content p {
         font-size: 11px;
+    }
+
+    .main-content img {
+        height: 130px;
+        background-color:deepskyblue
+    }
+
+    /* Article 7 (Double champ) */
+    .main-content:nth-child(12) img {
+        height: 130px;
     }
 
     /* Footer */
